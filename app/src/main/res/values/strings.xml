@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Wanderlust</string>
+
+    <string name="travel_guides">Travel Guides</string>
+    <string name="food_n_drink">Food n Drink</string>
+    <string name="hotels">Hotels</string>
+    <string name="weekend_gateways">Weekend Gateways</string>
+
+</resources>
