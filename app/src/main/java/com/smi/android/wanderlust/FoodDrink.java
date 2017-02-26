@@ -15,11 +15,11 @@ public class FoodDrink extends AppCompatActivity {
 
 
         ArrayList<Tour> tourItems = new ArrayList<Tour>();
-        tourItems.add(new Tour(R.drawable.girlincafe, "Girl in The Cafe!", "Sector 17"));
-        tourItems.add(new Tour(R.drawable.fcafe, "F Cafe", "Sector 26"));
-        tourItems.add(new Tour(R.drawable.backroom, "The Back Room", "Sector 34"));
-        tourItems.add(new Tour(R.drawable.unclejacks, "Uncle Jack's", "Sector 8"));
-        tourItems.add(new Tour(R.drawable.caked, "Caked", "Manimajra"));
+        tourItems.add(new Tour(R.drawable.girlincafe, getString(R.string.food_one), getString(R.string.one_loc_food)));
+        tourItems.add(new Tour(R.drawable.fcafe, getString(R.string.food_two), getString(R.string.two_loc_food)));
+        tourItems.add(new Tour(R.drawable.backroom, getString(R.string.food_three), getString(R.string.three_loc_food)));
+        tourItems.add(new Tour(R.drawable.unclejacks, getString(R.string.food_four), getString(R.string.four_loc_food)));
+        tourItems.add(new Tour(R.drawable.caked, getString(R.string.food_five), getString(R.string.five_loc_food)));
 
         TourAdapter adapter = new TourAdapter (this, tourItems);
         ListView listView = (ListView)findViewById(R.id.list_id);
